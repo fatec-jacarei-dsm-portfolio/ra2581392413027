@@ -9,7 +9,7 @@ Sou formado em Engenharia Mecânica, com MBA em Gestão de Projetos e atualmente
 ## 🔗 Acesse o Portfólio Online
 
 Você pode visualizar meu portfólio completo em:
-👉 [pedro-oliveira.github.io](https://github.com/fatec-jacarei-dsm-portfolio/ra2581392413027) 
+👉 [pedro-oliveira.github.io](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392413027/) 
 
 ---
 
