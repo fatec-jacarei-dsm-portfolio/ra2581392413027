@@ -1,4 +1,50 @@
 /* =========================================
+   FONTE LOCAL (Inter) - arquivos em assets/fonts/
+========================================= */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('assets/fonts/inter-300.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('assets/fonts/inter-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('assets/fonts/inter-500.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('assets/fonts/inter-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('assets/fonts/inter-700.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('assets/fonts/inter-800.woff2') format('woff2');
+}
+
+/* =========================================
    VARIÁVEIS CSS (Design System)
 ========================================= */
 :root {
@@ -19,7 +65,7 @@
     --glass-bg: rgba(19, 27, 38, 0.65);
     
     /* Tipografia */
-    --font-main: 'Inter', sans-serif;
+    --font-main: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     
     /* Espaçamentos & Layout */
     --section-padding: 6rem 0;
@@ -983,4 +1029,94 @@ h1, h2, h3, h4 {
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
+}
+
+/* =========================================
+   PROJETOS ACADÊMICOS (ABP) - rótulos e contribuição
+========================================= */
+.section-intro {
+    max-width: 70ch;
+    color: var(--text-secondary);
+    margin: -1.5rem 0 3rem;
+}
+
+.subsection-title {
+    font-size: 1.5rem;
+    margin: 4rem 0 1.5rem;
+}
+
+.projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+}
+
+.project-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background: rgba(0, 229, 255, 0.04);
+}
+
+.project-sem {
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: var(--accent-primary);
+    margin-right: 0.75rem;
+}
+
+.project-period {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.project-status {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid var(--accent-primary);
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+
+.project-role {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--accent-primary);
+}
+
+.project-role h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: var(--text-primary);
+}
+
+.project-role p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.project-links {
+    flex-wrap: wrap;
+}
+
+/* Campo anti-spam do formulário (invisível para pessoas) */
+.form-honey {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+/* Foco visível para teclado */
+a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+    .social-links { flex-wrap: wrap; }
 }
