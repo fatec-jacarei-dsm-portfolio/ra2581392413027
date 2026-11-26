@@ -13,20 +13,25 @@ Você pode visualizar meu portfólio completo em:
 
 ---
 
-## 🧩 Projetos em Destaque
+## 🧩 Projetos (ABPs e profissional)
 
-| Projeto         | Tecnologias                       | Link                    |
-|----------------|------------------------------------|-------------------------|
-| **Ceres Vita**  | React, Node, PostgreSQL           | [GitHub](https://github.com/InovatechLabs/Ceres-Vita) \| [Online](https://ceres-vita.onrender.com) |
-| **SafeTemp**    | ESP32, Node.js, MySQL             | [GitHub](https://github.com/InovatechLabs/SafeTemp)     |
-| **Njord**       | React, MongoDB, Express, Node     | [GitHub](https://github.com/InovatechLabs/NJORD) \| [Online](https://njord-static.onrender.com) |
-| **Portal CBB**  | React, FastAPI, MySQL             | [GitHub](https://github.com/cbbdistribuidora/portal-cbb) \| [Online](https://portal.cbblog.com.br) |
+| Semestre | Projeto | Tecnologias | Links |
+|----------|---------|-------------|-------|
+| 1DSM – 1º sem. 2024 | **Innovatech Labs – Plataforma de cursos** | HTML, CSS, JavaScript, Node.js, PostgreSQL | [GitHub](https://github.com/gjulianni/Innovatech) |
+| 2DSM – 2º sem. 2024 | **Ceres Vita** | React, TypeScript, Node.js, PostgreSQL | [GitHub](https://github.com/InovatechLabs/Ceres-Vita) \| [Online](https://ceres-vita.onrender.com) |
+| 3DSM – 1º sem. 2025 | **NJORD** | React, TypeScript, Node.js, MongoDB | [GitHub](https://github.com/InovatechLabs/NJORD) \| [Online](https://njord-static.onrender.com) |
+| 4DSM – 2º sem. 2025 | **SafeTemp** | React Native, Node.js, Arduino, Python (Gemini) | [App](https://github.com/InovatechLabs/SafeTemp) \| [Serviço de IA](https://github.com/InovatechLabs/st_ai_service) |
+| 5DSM – 1º sem. 2026 | **FieldVision** | React, TypeScript, Node.js, PostgreSQL, Prisma | [GitHub](https://github.com/InovatechLabs/FieldVision) |
+| 6DSM – 2º sem. 2026 | **Chatbot PROCON** | Node.js, TypeScript, Prisma, React, Ollama | [GitHub](https://github.com/InovatechLabs/chatbot-procon) |
+| Profissional | **Portal CBB** (APIs de devolução de notas fiscais e painel de gestão) | Python, FastAPI, TypeScript, React | [GitHub](https://github.com/cbbdistribuidora/portal-cbb) \| [Online](https://portal.cbblog.com.br) |
+| Profissional | **Robô de impressão de notas fiscais e boletos** | Python, SQLite, Ghostscript, Tesseract OCR | Código privado |
+| Profissional | **CheckList** (inspeções e rotinas operacionais) | C# / .NET, React, Flutter, PostgreSQL | Código privado |
+| Profissional | **Automação de indicadores comerciais** (performance de visitas) | Python, Oracle, pandas, Playwright, Telegram | Código privado |
 
 ---
 
 ## 📫 Contato
 
-- **Email:** pedro.felipe.a@hotmail.com  
 - **LinkedIn:** [linkedin.com/in/pedro-felipe-de-araujo-oliveira](https://www.linkedin.com/in/pedro-felipe-de-araujo-oliveira-3659b9163)  
 - **GitHub:** [github.com/PedroOlveira](https://github.com/PedroOlveira)
 
