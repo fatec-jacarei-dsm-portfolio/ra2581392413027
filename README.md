@@ -13,6 +13,12 @@ Você pode visualizar meu portfólio completo em:
 
 ---
 
+## 🎬 Pitch em vídeo
+
+- **Chatbot PROCON (6DSM, 2º sem. 2026):** [assistir no YouTube](https://youtu.be/ijzvlzmkUjU) – minha contribuição no painel administrativo, na agenda de atendimentos e no agendamento presencial.
+
+---
+
 ## 🧩 Projetos (ABPs e profissional)
 
 | Semestre | Projeto | Tecnologias | Links |
